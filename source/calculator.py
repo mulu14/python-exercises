@@ -11,8 +11,8 @@ class Calculator:
     def get_input(self):
         return input('Calculate: ')
 
-    def calculate(self, parm):
-        getvalue = eval(parm)
+    def calculate(self, param):
+        getvalue = eval(param)
         print(getvalue)
         return getvalue
 

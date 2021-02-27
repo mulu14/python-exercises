@@ -9,3 +9,9 @@ def anagram(str1, str2):
         return True
     else:
         return False
+
+
+"""
+print(anagram('army', 'Mary'))
+print(anagram('TestOne', 'testTwo'))
+"""

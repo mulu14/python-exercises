@@ -2,6 +2,11 @@ from selenium import webdriver
 options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
 
+"""
+Print links from a single page
+Change the sample url that passed for test case
+"""
+
 
 def getLinks(url):
     driver = webdriver.Chrome(
