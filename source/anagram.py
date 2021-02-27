@@ -1,5 +1,11 @@
+"""
+   A function  that check if two strings are anagram 
+   It return true or false
+"""
+
+
 def anagram(str1, str2):
     if (sorted(str1.lower()) == sorted(str2.lower())):
-        print(True)
+        return True
     else:
-        print(False)
+        return False
