@@ -3,31 +3,31 @@ from source.calculator import Calculator
 
 
 class TestCalculator(unittest.TestCase):
-    def test_string_sum_value_level_1(self):
+    def test_one_operator_sum_value_level_1(self):
         """
-        Test two string sum value
+        Test strings sum  
         """
         data = "10 + 20"
         result = Calculator.calculate(self, data)
         self.assertEqual(result, 30)
 
-    def test_two_strings_subtraction_level_1(self):
+    def test_one_operator_subtraction_level_1(self):
         """
-        Test two strings subtraction
+        Test strings subtraction
         """
         data = "10 - 20"
         result = Calculator.calculate(self, data)
         self.assertEqual(result, -10)
 
-    def test_two_strings_multiplication_level_1(self):
+    def test_one_operator_multiplication_level_1(self):
         """
-        Test two strings multiplication
+        Test strings multiplication
         """
         data = "10 * 20"
         result = Calculator.calculate(self, data)
         self.assertEqual(result, 200)
 
-    def test_two_strings_division_level_1(self):
+    def test_one_operator_division_level_1(self):
         """
         Test two strings divisions
         """
@@ -37,7 +37,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_multiple_operators_sum_level_2(self):
         """
-        Test multiple operators sum 
+        Test multiple operators sum level 2
         """
         data = "2+30+4"
         result = Calculator.calculate(self, data)
@@ -45,7 +45,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_multiple_operators_subtraction_level_2(self):
         """
-        Test multiple operators subtraction
+        Test multiple operators subtraction level 2
         """
         data = "2 - 3 + 4 + 15"
         result = Calculator.calculate(self, data)
@@ -53,7 +53,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_multiple_operators_multiplication_level_2(self):
         """
-        Test multiple operators multiplication
+        Test multiple operators multiplication level 2
         """
         data = "2*3*4"
         result = Calculator.calculate(self, data)
@@ -61,7 +61,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_multiple_operators_division_level_2(self):
         """
-        Test multiple operators division 
+        Test multiple operators division level 2
         """
         data = "2*3/4 * 20"
         result = Calculator.calculate(self, data)
@@ -69,7 +69,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_multiple_operators_sum_level_3(self):
         """
-        Test multiple operators sum
+        Test multiple operators sum level 3
         """
         data = "2+3*40"
         result = Calculator.calculate(self, data)
@@ -77,7 +77,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_multiple_operators_subtraction_level_3(self):
         """
-        Test multiple operators subtraction
+        Test multiple operators subtraction level 3
         """
         data = "2*3 + 4"
         result = Calculator.calculate(self, data)
@@ -85,7 +85,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_multiple_operators_multiplication_level_3(self):
         """
-        Test multiple operators multiplication
+        Test multiple operators multiplication level 3
         """
         data = "2 - 3*4"
         result = Calculator.calculate(self, data)
@@ -93,7 +93,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_multiple_operators_division_level_3(self):
         """
-        Test multiple operators division
+        Test multiple operators division level 3
         """
         data = "2/3 + 4 - 1"
         result = Calculator.calculate(self, data)
