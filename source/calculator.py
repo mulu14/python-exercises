@@ -18,6 +18,6 @@ class Calculator:
 
 
 """
-getInput = Calculator.get_input('self')
+get_input = Calculator.get_input('self')
 Calculator().calculate(get_input)
 """

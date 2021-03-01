@@ -4,6 +4,7 @@ You should have python development environment\
 Uncomment the function call at the bottom of the page and run\
 You should have python3\
 The code is written in Windows environment \
+I assume you know how to set up local dev environment for python \
 Run python source/filename.py
 
 ###### Dependencies
